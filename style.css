@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/9a/2e/f9/9a2ef92e2e0ca0fb061171e27596dfeb.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: white;
+}
+
+.tc-white{
+    color: white;
+}
+
+.tf-LucidiaSans{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.s18{
+    text-size-adjust: 18px;
+}
