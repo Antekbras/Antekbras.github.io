@@ -32,12 +32,18 @@ Heading Background Color: #141a23 (Dark Blue)
 Menu bar color: #040507 (Black)
 */
 
+/* background color for pages*/
 .background{
     Background-color: #565462;
 }
 
+/*heading modifiers*/
 .heading{
     background-color: #141a23;
+    color:#84693b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-size-adjust: ;
 }
 
 .tc-white{
