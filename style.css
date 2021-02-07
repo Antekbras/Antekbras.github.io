@@ -1,7 +1,7 @@
 /*This section will work on the navigation menu*/
 .nav-bar {
     border-radius: 25px;
-    background-color: #040507;
+    background-color: #141a23;
     overflow: hidden;
 }
 
@@ -24,7 +24,6 @@
 .nav-bar a.active {
     background-color: #304e60;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /*
 Color Pallete Ideas:
