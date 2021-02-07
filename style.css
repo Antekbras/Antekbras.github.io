@@ -13,7 +13,7 @@
     text-decoration: none;
     font-size: 17px;
 }
-    /*Changes the color of the link when hovered on*/
+ /*Changes the color of the link when hovered on*/
 .nav-bar a:hover {
     background-color: white;
     color: black;
