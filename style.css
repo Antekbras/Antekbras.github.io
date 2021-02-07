@@ -1,5 +1,6 @@
 /*This section will work on the navigation menu*/
 .nav-bar {
+    border-radius: 25px;
     background-color: #040507;
     overflow: hidden;
 }
