@@ -1,11 +1,12 @@
-/*This section will work on the navigation menu*/
-.nav-bar {
-    border-radius: 25px;
-    background-color: #141a23;
+/*Navigation Menu*/
+    /*Menu bar color: #111b1e (Black)*/
+    .nav-bar {
+    border-radius: 10px;
+    background-color: #111b1e;
     overflow: hidden;
-}
+    }
 
-.nav-bar a {
+    .nav-bar a {
     border-radius: 25px;
     float: left;
     color: white;
@@ -13,52 +14,47 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: "Sans-serif", Helvetica;
+    }
 
-.nav-bar a:hover {
-    background-color: #84693b;
+    /*Selected Color: #63a583 (Green)*/
+    .nav-bar a:hover {
+    background-color: #63a583;
     color: white;
-}
+    }
 
-.nav-bar a.active {
-    background-color: #304e60;
+    /*Hover Color: #6e93d6 (Blue)*/
+    .nav-bar a.active {
+    background-color: #6e93d6;
     color: white;
-}
-/*
-Color Pallete Ideas:
-Page background: #565462 (Gray)
-Hover Color: #84693b (Gold)
-Selected Color: #304e60 (Light Blue)
-Heading Background Color: #141a23 (Dark Blue)
-Menu bar color: #040507 (Black)
-*/
+    }
+/*Navigation Menu End*/
 
-/* background color for pages*/
-.background{
-    Background-color: #565462;
-}
+/*Page background*/
+    /*Page background color: #e4dbd9 (Light Gray)*/
+    .background{
+        Background-color: #e4dbd9;
+    }
+/*Page background end*/
 
-/*heading modifiers*/
-.heading{
-    color:#84693b;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
+/*Heading 1*/
+    /*Heading Color: #023026 (Dark Green)*/
+    .heading1{
+    color:#023026;
+    font-family: "Sans-serif", Helvetica;
+    text-align: center;
     text-size-adjust: 30px;
-    padding-left: 160px;
-}
+    }
+/*Heading 1 end*/
 
-.heading-color {
-    background-color: #141a23;
-    overflow: hidden;
-}
+
 
 .tc-white{
     color: white;
 }
 
 .tf-LucidiaSans{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
 }
 
 .center{
