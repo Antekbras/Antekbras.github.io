@@ -43,7 +43,8 @@ Menu bar color: #040507 (Black)
     color:#84693b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
-    text-size-adjust: ;
+    text-size-adjust: 30px;
+    padding-left: 160px;
 }
 
 .tc-white{
