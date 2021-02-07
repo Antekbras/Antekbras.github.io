@@ -1,11 +1,5 @@
 body{
-    background-image: url();
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-a{
-    color: blue;
+    Background-color: rgba(0, 153, 255, 0.5);
 }
 
 .tc-white{
