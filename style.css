@@ -1,11 +1,11 @@
 body{
-    background-image: url("https://i.pinimg.com/originals/9a/2e/f9/9a2ef92e2e0ca0fb061171e27596dfeb.png");
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 a{
-    color: white;
+    color: blue;
 }
 
 .tc-white{
@@ -22,4 +22,8 @@ a{
 
 .s18{
     text-size-adjust: 18px;
+}
+
+.enzo{
+    text-align: right
 }
