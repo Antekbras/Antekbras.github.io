@@ -1,7 +1,7 @@
 /*This section will work on the navigation menu*/
     /*adds color to nav bar*/
 .nav-bar {
-    background-color: black;
+    background-color: #040507;
     overflow: hidden;
 }
     /*styles the links inside the nav bar*/
@@ -15,18 +15,25 @@
 }
  /*Changes the color of the link when hovered on*/
 .nav-bar a:hover {
-    background-color: white;
+    background-color: #84693b;
     color: black;
 }
     /*adds color to the active link*/
 .nav-bar a.active {
-    background-color: green;
+    background-color: #304e60;
     color: white;
 }
-/**/
+/*
+Color Pallete Ideas:
+Page background: #565462 (Gray)
+Hover Color: #84693b (Gold)
+Selected Color: #304e60 (Light Blue)
+Heading Background Color: #141a23 (Dark Blue)
+Menu bar color: #040507 (Black)
+*/
 
 .background-blue{
-    Background-color: rgba(0, 153, 255, 0.5);
+    Background-color: #565462;
 }
 
 .background-black{
