@@ -1,5 +1,29 @@
-
-
+/*This section will work on the navigation menu*/
+    /*adds color to nav bar*/
+.nav-bar {
+    background-color: black;
+    overflow: hidden;
+}
+    /*styles the links inside the nav bar*/
+.nav-bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+    /*Changes the color of the link when hovered on*/
+.nav-bar a:hover {
+    background-color: white;
+    color: black;
+}
+    /*adds color to the active link*/
+.nav-bar a.active {
+    background-color: green;
+    color: white;
+}
+/**/
 
 .background-blue{
     Background-color: rgba(0, 153, 255, 0.5);
