@@ -1,109 +1,46 @@
-<!--!DOCTYPE declares what the document will be to the browser.
-in this case it dictates that it will be an html website-->
 <!DOCTYPE html>
-    <!--DOCTYPE only tells the browser how to render the website. The <html>
-    tag allows it to then be manipulated with javascipt code etc.-->
-    <!--lang specifies what language the website is written in. "en" means 
-    that the website is written in english. "US" specifies that it is written
-    in the US dialect of english. This helps in showing language specific results
-    on web browsers and allows web browsers that allow translation to provide more
-    accurate translation.-->
-    <html lang="en-US">
-            <!--Head is where all meta data for the website is kept.
-            Ex. Document title, character set, style, scripts etc.-->
+    <html lang="en-US">   
          <head>
-            <!--Title is used for search engine optimization. It is what is shown on the
-            top of the webpage in the tab section and is also a keyword used for search
-            engines.-->
             <title>Antoni Bras</title>
-            <!--Meta describes the line of code as metadata.-->
-            <!--Charset is what tells the website what kind of character
-            set it should use. This is because computers translate letters 
-            into binary numbers. The given character set then defines
-            how the computer will encode/decode letters.-->
-            <!--UTF-8 is the most commonly used character set because allows
-            higher effeciency by changing how much storage different characters
-            use. Common letters use smaller numbers and rarely used letters use
-            more storage.-->
+          
             <meta charset="UTF-8">
-            <!--Name sets the name or calling card for the meta data-->
-            <!--Content allows you to link the given content with the name
-            you have set for that content.-->
-            <!--"width=device-width sets the width of the page to the screen-width
-            of the device. Initial-scale=1 sets the zoom level when initially
-            loaded by the browser to. In this case 1 is 100%"-->
+           
             <meta name="viewport" 
             content="width=device-width, initial-scale=1">
-            <!--the keywords section is what keywords search engines will use to find your
-            website. the content section then allows you to put which keywords you would 
-            like to be used to find your website.-->
+           
             <meta name="keywords" 
             content="Antoni Bras, Antek Bras, Antek, Bras, Antoni">
-            <!--the description section is used to create a short summary of what the 
-            website is. This is the small snippit of information shown below a website
-            when on a search engine. Content is then used to put the summary in place.-->
+            
             <meta name="description" 
             content="Antoni's website.">
-            <!--This code forces the users website to refresh every 240 sec. 
-            http-equiv allows you to send additional information with your website
-            to the browser.-->
-            <!-- In this case we used "refresh" which means that we want to
-            send the additional information of telling the browser to refresh after a certain
-            period of time. in this case content is after how long we want the website to
-            refresh, in this case 240 seconds.-->
-            <meta http-equiv="refresh" 
-            content="240">
-            <!--Here we are setting up a security policy for the website. http-equiv="content
-            security policy states" that we want to send additional information to the users 
-            browser about the contents security policy. The "default-src 'self'" states that we
-            only want to allow content coming from our website.-->
-            <!--<meta http-equiv="content-security-policy"
-            content="default-src 'self'">-->
-            <!--The code below links to bootstrap. Bootstrap allows websites to 
-            shift and change depending on what device they are being used on. It
-            does this by creating a framework and allowing items to move and shift
-            on a grid system to allow for mobile, tablet, or computer use.-->
+         
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         </head>
-            <!--Body creates the section for everything displayed on the website-->
+         
         <body class="bg-dark">
-            <!--ul means you are creating an unordered list. The class is nav because we are
-            making a navigation menu.-->
-            <ul class="nav justify-content-center">
+          
+            <ul class="nav nav-pills navbar-expand-sm justify-content-center">
                 <li class="navitem">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link active" 
+                    href="index.html">Home</a>
                 </li>
 
                 <li class="navitem">
-                    <a class="nav-link disabled" href="">Project</a>
+                    <a class="nav-link text-white" 
+                    href="portfolio.html">Portfolio</a>
+                </li>
+
+                <li class="navitem">
+                    <a class="nav-link disabled" 
+                    href="project.html">Project</a>
                 </li>
             </ul>
         
 
-            <!--div allows us to create a devision of the code for a specific line
-            of text or layout. Here we are creating a div for the top container of our
-            page.-->
-            <!--A container allows us to take advantage of bootstrap to create content
-            that will shift and change with the website depending on size that we are 
-            viewing. There are two types of containers, ones that are a fixed width, and 
-            ones that are full width of the viewed on screen.-->
-            <!--We can add padding to the container by using pt-1 through pt-5. Padding 
-            increases the margin on the top and bottom of our box by a certain amount (1-5).-->
-            <!--P stands for padding. T stands for top. pt creates a top padding of 3-->
-            <!--M changes the margin.-->
-            <!--X sets both left and right. Y changes padding on both top and bottom.
-            leaving it blank changes all 4 sides.-->
-            <!--bg stands for background-->
            <div class="container-fluid p-3 my-3 bg-secondary text-white">
-                <h1 class="text-center">Antoni Bras</h1>
-                <!--Small allows you to add smaller, secondary text to any heading.-->
+                <h1 class="text-center">About Me</h1>
                 <h2>Welcome to my website! <small>this is small test</small></h2>
            </div>
-           
-           
-           
-           
-
         </body>
     </html>
